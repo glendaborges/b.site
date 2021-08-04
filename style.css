@@ -1,0 +1,146 @@
+ @font-face {
+     font-family: 'magalu';
+     src: url('fonts/MagaluTextosBeta-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal; 
+    }
+ 
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'magalu';
+    font-weight: 500;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: #7800f9;
+ }
+ body{
+    
+    background-color: #f4f2f5;
+    color: #7800f9;
+     /* provisório*/
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+header nav img{
+    margin-bottom: 10px;
+    
+}
+
+header nav a{
+    padding: 25px;
+    font-size: 25px;
+    transition: 300ms;
+   
+}
+
+header nav a:hover{
+    color: #5004a1;
+    
+}
+
+#about {
+    padding: 50px;
+    font-size: 20px;
+}
+
+p:first-child{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 180px;
+}
+
+.contato a {
+    font-family: 'magalu';
+    font-style: italic;
+    font-size: 15px;
+    transition: 300ms;
+}
+
+.contato a:hover{
+    color: #3b0475;
+}
+
+i {
+    padding: 5px;
+    color: rgb(138, 134, 134);
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    transition: 300ms;
+}
+
+i:hover{
+    color: rgb(90, 87, 87);
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    header nav img {
+        width: 40px;
+    }
+
+    #about {
+        font-size: 10px;
+        padding: 25px;
+
+    }
+
+    header nav a{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    p:first-child{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        margin-top: 250px;
+    }
+
+    .contato{
+        font-size: 10px;
+    }
+}
+
+
+/*
+nav{
+    padding: 30px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+ #about{
+     max-width: 1100px;
+     margin: 0 auto;
+     
+     
+ }
+ */ 
