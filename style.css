@@ -34,9 +34,9 @@
  }
  body{
     
-    background-color: #f4f2f5;
     color: #7800f9;
-     /* provisório*/
+    background-color: #ebebff; 
+    /*  f2edf5 provisório*/
 }
 
 header{
@@ -85,6 +85,7 @@ footer{
     font-family: 'magalui';
     font-size: 15px;
     transition: 300ms;
+    
 }
 
 .contato a:hover{
@@ -94,7 +95,7 @@ footer{
 i {
     padding: 5px;
     color: rgb(138, 134, 134);
-    font-size: 25px;
+    font-size: 35px;
     margin-right: 10px;
     margin-left: 10px; 
     transition: 300ms;
