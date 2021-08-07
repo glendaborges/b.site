@@ -65,6 +65,8 @@ header nav img{
 header nav a{
     padding: 25px;
     font-size: calc(1em + 1vw);
+    font-family: 'magalulight';
+    font-weight: 600;
     /* font-size: 25px; */
     transition: 300ms;
    
