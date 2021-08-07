@@ -81,7 +81,7 @@ header nav a:hover{
     font-family: 'magalulight'; 
     font-weight: normal;
     padding: 50px;
-    font-size: calc(1em + 1vw);
+    font-size: calc(1.4em + 0.5vw);
     /* font-size: 1.4em; */
 }
 
@@ -133,15 +133,15 @@ i:hover{
     }
 
     #about {
-        font-size: 18px;
-        margin-top: 20px;
+        font-size: 0.7em;
+    
         padding: 25px;
 
     }
 
     header nav a{
         padding: 10px;
-        font-size: 20px;
+        font-size: 1em;
     }
 
     p:first-child{
@@ -153,7 +153,7 @@ i:hover{
     }
 
     .contato{
-        font-size: 10px;
+        font-size: 0.6em;
     }
 
 }
