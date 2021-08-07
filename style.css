@@ -44,6 +44,7 @@
     
     color: #7800f9;
     background-color: #f4f2f5 ; 
+    
     /*  provisório*/
 }
 
@@ -62,7 +63,8 @@ header nav img{
 
 header nav a{
     padding: 25px;
-    font-size: 25px;
+    font-size: calc(1em + 1vw);
+    /* font-size: 25px; */
     transition: 300ms;
    
 }
@@ -76,7 +78,8 @@ header nav a:hover{
     font-family: 'magalulight'; 
     font-weight: normal;
     padding: 50px;
-    font-size: 1.4em;
+    font-size: calc(1em + 1vw);
+    /* font-size: 1.4em; */
 }
 
 p:first-child{
@@ -93,7 +96,8 @@ footer{
 
 .contato a {
     font-family: 'magalui';
-    font-size: 15px;
+    font-size: calc(0.7em + 1vw);
+    /* font-size: 15px; */
     transition: 300ms;    
 
 
@@ -108,7 +112,8 @@ footer{
 i {
     padding: 10px;
     color: rgb(138, 134, 134);
-    font-size: 35px;
+    font-size: calc(1.2em + 1.5vw);
+    /* font-size: 35px; */
     transition: 300ms;
     margin-top: 15px;
 }
@@ -116,7 +121,6 @@ i {
 i:hover{
     color: rgb(90, 87, 87);
 }
-
 
 
 
@@ -151,22 +155,3 @@ i:hover{
 
 }
 
-
-/*
-nav{
-    padding: 30px;
-    
-}
-
-
-a{
-    text-decoration: none;
-    padding: 0 10px;
-}
- #about{
-     max-width: 1100px;
-     margin: 0 auto;
-     
-     
- }
- */ 
