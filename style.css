@@ -58,6 +58,7 @@ header{
 
 header nav img{
     margin-bottom: 10px;
+    width: calc(5.4em + 2vw);
     
 }
 
@@ -96,7 +97,7 @@ footer{
 
 .contato a {
     font-family: 'magalui';
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.7em + 0.5vw);
     /* font-size: 15px; */
     transition: 300ms;    
 
