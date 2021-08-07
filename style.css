@@ -86,6 +86,9 @@ footer{
     font-size: 15px;
     transition: 300ms;
     
+    
+    
+    
 }
 
 .contato a:hover{
@@ -93,12 +96,11 @@ footer{
 }
 
 i {
-    padding: 5px;
+    padding: 10px;
     color: rgb(138, 134, 134);
     font-size: 35px;
-    margin-right: 10px;
-    margin-left: 10px; 
     transition: 300ms;
+    margin-top: 15px;
 }
 
 i:hover{
