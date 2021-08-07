@@ -11,6 +11,13 @@
     font-style: italic; 
 }
 
+@font-face {
+    font-family: 'magalulight';
+    src: url('fonts/MagaluTextosBeta-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
  * {
@@ -18,8 +25,7 @@
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family: 'magalu';
-    font-weight: 500;
+   
     
  }
 
@@ -30,13 +36,15 @@
  a {
      text-decoration: none;
      color: #7800f9;
+     font-family: 'magalu';
+     font-weight: 500;
      
  }
  body{
     
     color: #7800f9;
-    background-color: #ebebff; 
-    /*  f2edf5 provisório*/
+    background-color: #f4f2f5 ; 
+    /*  provisório*/
 }
 
 header{
@@ -65,6 +73,8 @@ header nav a:hover{
 }
 
 #about {
+    font-family: 'magalulight'; 
+    font-weight: normal;
     padding: 50px;
     font-size: 1.4em;
 }
@@ -84,11 +94,11 @@ footer{
 .contato a {
     font-family: 'magalui';
     font-size: 15px;
-    transition: 300ms;
-    
-    
-    
-    
+    transition: 300ms;    
+
+
+
+
 }
 
 .contato a:hover{
