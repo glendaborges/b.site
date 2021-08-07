@@ -129,11 +129,11 @@ i:hover{
 
 @media only screen and (max-width: 480px){
     header nav img {
-        width: 50px !important ;
+        width: 50px ;
     }
 
     #about {
-        font-size: 0.7em;
+        font-size: 3.7vw;
     
         padding: 25px;
 
@@ -141,7 +141,7 @@ i:hover{
 
     header nav a{
         padding: 10px;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     p:first-child{
@@ -153,7 +153,7 @@ i:hover{
     }
 
     .contato{
-        font-size: 0.6em;
+        font-size: 16px;
     }
 
 }
