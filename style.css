@@ -35,13 +35,13 @@ header  {
 
 header nav img  {
     margin-bottom: 10px;
-    width: calc(5.4em + 2vw);
+    width: calc(3.7em + 2vw);
     
 }
 
 header nav a    {
     padding: 25px;
-    font-size: calc(1em + 1vw);
+    font-size: calc(0.8em + 1vw);
     font-family: 'magalulight';
     font-weight: 600;
      text-decoration: none;
@@ -58,7 +58,7 @@ header nav a:hover  {
     font-family: 'magalulight'; 
     font-weight: normal;
     padding: 50px;
-    font-size: calc(1.4em + 0.5vw);
+    font-size: calc(1.2em + 0.5vw);
 }
 
 p:first-child   {
