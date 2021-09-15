@@ -147,7 +147,7 @@ i:hover {
         grid-auto-rows: 50vh;
         padding: 2px;
         margin-top: 15px;
-        width: 90%;
+        width: 97%;
     }
 
 
@@ -175,6 +175,11 @@ i:hover {
 
     .contato    {
         font-size: 16px;
+    }
+
+    i {
+        font-size: calc(1.1em + 1.5vw);
+        margin-left: 4px;
     }
 
 }

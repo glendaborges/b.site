@@ -133,5 +133,9 @@ i:hover {
         font-size: 16px;
     }
 
+    i {
+        font-size: calc(1em + 1.5vw);
+    }
+
 }
 
