@@ -92,7 +92,7 @@ footer  {
 i   {
     padding: 10px;
     color: rgb(138, 134, 134);
-    font-size: calc(1.2em + 1.5vw);
+    font-size: calc(0.9em + 1.5vw);
     transition: 300ms;
     margin-top: 15px;
 }
