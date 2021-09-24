@@ -1,6 +1,6 @@
 class Header extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
       <header>
       <nav>
           <a href="../work.html">WORK</a>
@@ -9,7 +9,18 @@ class Header extends HTMLElement {
       </nav>
  </header>
           `
-    }
   }
+}
+class Footer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <footer>
+        <a target="blank" href="https://vimeo.com/brunodelacerda"><i class="fab fa-vimeo-square"></i></a>
+      </footer>
+        <a target="blank" href="https://www.linkedin.com/in/bruno-delacerda-b55033175/"><i class="fab fa-linkedin"></i></a>
+          `
+  }
+}
 
-  customElements.define('nav-header', Header);
+customElements.define('nav-header', Header);
+customElements.define('a-footer', Footer);
