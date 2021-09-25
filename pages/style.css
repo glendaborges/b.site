@@ -2,7 +2,7 @@
     font-family: 'magalui';
     src: url('../fonts/MagaluTextosBeta-LightItalic.ttf') format('truetype');
     font-weight: normal;
-    font-style: italic; 
+    font-style: italic;
 }
 
 @font-face {
@@ -12,75 +12,66 @@
     font-style: normal;
 }
 
- *  {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* text-align: center; */
- }
-  
- body   {
-    color: #7800f9;
-    background-color: #f4f2f5 ; 
 }
 
-header  {
+body {
+    color: #7800f9;
+    background-color: #f4f2f5;
+}
+
+header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    
 }
 
-header nav img  {
+header nav img {
     margin-bottom: 10px;
     width: calc(3.7em + 2vw);
-    
 }
 
-header nav a    {
+header nav a {
     padding: 25px;
     font-size: calc(0.8em + 1vw);
     font-family: 'magalulight';
     font-weight: 600;
-     text-decoration: none;
-     color: #7800f9;
+    text-decoration: none;
+    color: #7800f9;
     transition: 300ms;
-   
 }
 
-header nav a:hover  {
+header nav a:hover {
     color: #5004a1;
 }
 
-
 .video {
-margin: 0;
-padding: 15px;
-position: relative;
-    
-} 
- 
+    margin: 0;
+    padding: 15px;
+    position: relative;
+}
+
 .video iframe {
     width: 100%;
     height: 55vh;
 }
 
- .legenda {
-    /* position:relative; */
+.legenda {
     margin-top: 15px;
     width: 100%;
-    
 }
-
 
 .legenda p {
-   text-align: center;
-   font-family: 'magalulight';
-   font-size: 1.1em;
+    text-align: center;
+    font-family: 'magalulight';
+    font-size: 1.2em;
 }
 
-#italic{
+#italic {
     font-style: italic;
 }
 
@@ -90,10 +81,9 @@ footer {
     text-align: center;
     width: 100vw;
     padding-bottom: 15px;
-      
 }
 
-i   {
+i {
     padding: 15px;
     color: rgb(138, 134, 134);
     font-size: calc(0.6em + 1.5vw);
@@ -105,43 +95,29 @@ i:hover {
     color: rgb(90, 87, 87);
 }
 
-@media(max-width:768px){
-
-   
+@media(max-width:768px) {
     header nav img {
-        width: 50px ;
+        width: 50px;
     }
-
-
-    header nav a    {
+    header nav a {
         padding: 10px;
         font-size: 1.1em;
     }
-
-    
     .video iframe {
         width: 100%;
         height: 30vh;
         margin-top: 2px;
     }
-
     .legenda {
         margin-top: 3px;
     }
-
     .legenda p {
         font-size: 0.9em;
     }
-
-    footer  {
+    footer {
         margin-bottom: 30px;
     }
-
-  
-
     i {
         font-size: 1.5em;
-       
     }
-
 }

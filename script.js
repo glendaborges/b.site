@@ -3,9 +3,9 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <header>
       <nav>
-          <a href="../work.html">WORK</a>
+          <a href="../index.html">WORK</a>
           <img src="../img/gif2.gif"  >
-          <a href="../index.html">ABOUT</a>
+          <a href="../about.html">ABOUT</a>
       </nav>
  </header>
           `
