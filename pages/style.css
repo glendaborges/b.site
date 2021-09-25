@@ -16,7 +16,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-align: center;
+    /* text-align: center; */
  }
   
  body   {
@@ -55,24 +55,46 @@ header nav a:hover  {
 
 
 .video {
-/* margin: 15px -20px 0 -20px; */
+margin: 0;
 padding: 15px;
-padding-bottom: 50%;
 position: relative;
     
 } 
  
 .video iframe {
-    position: absolute;
-    top: 5%;
-    left: 20%;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 55vh;
+}
+
+ .legenda {
+    /* position:relative; */
+    margin-top: 15px;
+    width: 100%;
+    
 }
 
 
+.legenda p {
+   text-align: center;
+   font-family: 'magalulight';
+   font-size: 1.1em;
+}
+
+#italic{
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 15px;
+      
+}
+
 i   {
-    padding: 10px;
+    padding: 15px;
     color: rgb(138, 134, 134);
     font-size: calc(0.6em + 1.5vw);
     transition: 300ms;
@@ -96,17 +118,30 @@ i:hover {
         font-size: 1.1em;
     }
 
+    
+    .video iframe {
+        width: 100%;
+        height: 30vh;
+        margin-top: 2px;
+    }
 
+    .legenda {
+        margin-top: 3px;
+    }
+
+    .legenda p {
+        font-size: 0.9em;
+    }
 
     footer  {
-        padding: 30px;
+        margin-bottom: 30px;
     }
 
   
 
     i {
         font-size: 1.5em;
-        margin-left: 4px;
+       
     }
 
 }

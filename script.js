@@ -16,9 +16,9 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <footer>
         <a target="blank" href="https://vimeo.com/brunodelacerda"><i class="fab fa-vimeo-square"></i></a>
-      </footer>
+      
         <a target="blank" href="https://www.linkedin.com/in/bruno-delacerda-b55033175/"><i class="fab fa-linkedin"></i></a>
-          `
+         </footer> `
   }
 }
 
