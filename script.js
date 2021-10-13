@@ -1,3 +1,4 @@
+// COMPONENTE HTML DE MENU DE NAVEGACAO
 class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -11,6 +12,7 @@ class Header extends HTMLElement {
           `
   }
 }
+// COMPONENTE HTML DE FOOTER
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `

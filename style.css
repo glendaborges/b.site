@@ -24,6 +24,8 @@ body {
     background-color: #f4f2f5;
 }
 
+/* MENU DE NAVEGAÇÃO */
+
 header {
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +41,7 @@ header nav img {
 header nav a {
     padding: 25px;
     font-size: calc(0.8em + 1vw);
-    font-family: 'magalulight';
+    font-family: 'magalulight', sans-serif;;
     font-weight: 600;
     text-decoration: none;
     color: #7800f9;
@@ -49,9 +51,9 @@ header nav a {
 header nav a:hover {
     color: #5004a1;
 }
-
+/* PARAGRAFOS ABOUT */
 #about {
-    font-family: 'magalulight';
+    font-family: 'magalulight', sans-serif;;
     font-weight: normal;
     padding: 50px;
     font-size: calc(1em + 0.5vw);
@@ -60,13 +62,13 @@ header nav a:hover {
 p:first-child {
     margin-bottom: 20px;
 }
-
+/* CENTRALIZANDO O LAYOUT GRID */
 main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* LAYOUT GRID */
 .container-galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,17 +87,6 @@ main {
     object-fit: cover;
 }
 
-.item-galeria .title-galeria {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    padding: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .h-1 {
     grid-row: span 1;
 }
@@ -112,6 +103,7 @@ main {
     grid-column: span 2;
 }
 
+/* FOOTER PAGINA ABOUT */
 #rodape1 {
     position: fixed;
     bottom: 0;
@@ -119,13 +111,13 @@ main {
     width: 100vw;
     padding-bottom: 15px;
 }
-
+/* FOOTER PAGINA INDEX */
 #rodape2 {
     text-align: center;
     width: 98vw;
     padding-bottom: 15px;
 }
-
+/* NUMERO E EMAIL */
 .contato a {
     font-family: 'magalui';
     font-size: calc(0.7em + 0.5vw);
@@ -137,7 +129,7 @@ main {
 .contato a:hover {
     color: #230147;
 }
-
+/* ICONE REDES SOCIAIS */
 i {
     padding: 10px;
     color: rgb(138, 134, 134);
@@ -149,7 +141,7 @@ i {
 i:hover {
     color: rgb(90, 87, 87);
 }
-
+/* RESPONSIVADE */
 @media only screen and (max-width: 480px) {
     header nav img {
         width: 50px;

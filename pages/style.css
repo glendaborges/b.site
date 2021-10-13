@@ -22,7 +22,7 @@ body {
     color: #7800f9;
     background-color: #f4f2f5;
 }
-
+/* MENU DE NAVEGACAO */
 header {
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +38,7 @@ header nav img {
 header nav a {
     padding: 25px;
     font-size: calc(0.8em + 1vw);
-    font-family: 'magalulight';
+    font-family: 'magalulight', sans-serif;;
     font-weight: 600;
     text-decoration: none;
     color: #7800f9;
@@ -48,26 +48,43 @@ header nav a {
 header nav a:hover {
     color: #5004a1;
 }
-
-.video {
+/* TAMANHO E CENTRALIZACAO DO VIDEO */
+/* .video {
     margin: 0;
     padding: 15px;
     position: relative;
-}
+} */
 
 .video iframe {
     width: 100%;
     height: 55vh;
 }
-
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+ }
+ 
+  video {
+     width: 50%;
+     
+ }
+/* TAMANHO E CENTRALIZACAO DA LEGENDA */
 .legenda {
+    
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     margin-top: 15px;
-    width: 100%;
+    
 }
 
 .legenda p {
-    text-align: center;
-    font-family: 'magalulight';
+    
+    font-family: 'magalulight', sans-serif;;
     font-size: 1.2em;
 }
 
@@ -82,11 +99,11 @@ footer {
     width: 100vw;
     padding-bottom: 15px;
 }
-
+/* ICONES REDES SOCIAIS */
 i {
     padding: 15px;
     color: rgb(138, 134, 134);
-    font-size: calc(0.6em + 1.5vw);
+    font-size: calc(0.8em + 1.5vw);
     transition: 300ms;
     margin-top: 15px;
 }
@@ -94,8 +111,8 @@ i {
 i:hover {
     color: rgb(90, 87, 87);
 }
-
-@media(max-width:768px) {
+/* RESPONSIVIDADE */
+@media only screen and (max-width: 450px) {
     header nav img {
         width: 50px;
     }
@@ -108,7 +125,13 @@ i:hover {
         height: 30vh;
         margin-top: 2px;
     }
+    video{
+        width: 100%;
+        height: 30vh;
+        margin-top: 2px;
+    }
     .legenda {
+        width: 99%;
         margin-top: 3px;
     }
     .legenda p {
@@ -118,6 +141,6 @@ i:hover {
         margin-bottom: 30px;
     }
     i {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 }
